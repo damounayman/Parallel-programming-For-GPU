@@ -25,9 +25,6 @@ int main(void)
     const int ARRAY_SIZE = 64;
     const int ARRAY_BYTES = ARRAY_SIZE * sizeof (float);
 	
-	printf("size of float =%d\n ", sizeof (float) );
-	printf("size of ARRAY_BYTES =%d ", ARRAY_BYTES );
-	
 	//----generate the input array on host----
 	//build an array
 	float h_in[ARRAY_SIZE];
