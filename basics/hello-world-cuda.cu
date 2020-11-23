@@ -9,7 +9,7 @@ __global__ void helloWorld()
 
 int main(int argc, char **argv)
 {
-  helloWorld<<<6, 10>>>();
+  helloWorld<<<6,1>>>();
   cudaDeviceSynchronize();
   return 0;
 }
