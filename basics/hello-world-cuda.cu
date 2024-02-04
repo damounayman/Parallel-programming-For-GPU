@@ -1,5 +1,5 @@
-#include <cstdio>    
-#include "cuda.h"    
+#include <cstdio>
+#include "cuda.h"
 
 __global__ void helloWorld()
 {
